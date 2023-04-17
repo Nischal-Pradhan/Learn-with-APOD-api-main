@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.home {
+  background-image: url(./../public/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-nav {
+  padding: 50px 70px;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: 800;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: #d1cddb;
+  border: 5px solid #d1cddb;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.home-nav:hover {
+  box-shadow: 0 10px 1600px #d1cddb;
+  border-radius: 10px;
+  transition: all 0.7s ease-in-out;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  scale: 1.01;
+}
+
+.content-nasa {
+  background: #202020;
+  height: 100vh;
+  padding: 45px;
+}
+
+.contents {
+  display: flex;
+  margin: 5rem;
+  background: #111111;
+  border-radius: 25px;
+}
+
+.nasa-photo {
+  height: 500px;
+  width: 500px;
+  margin: 5rem;
+  padding: 1rem;
+  border: 5px solid #d1cddb;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 100px #384bf51c;
+}
+
+.nasa-photo:hover {
+  border: 5px solid #384bf53b;
+  border-radius: 20px;
+  scale: 1.5;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 1500px #384bf5;
+}
+
+.para {
+  padding: 1rem;
+  color: #d1cddb;
+  text-align: justify;
+}
+
+.para h1 {
+  font-size: 45px;
+  margin: 5rem 5rem 3rem 5rem;
+}
+
+.para p {
+  font-size: 20px;
+  margin: 1rem 5rem;
+}
+
+.nav-menu {
+  background: transparent;
+  margin-left: 100px;
+  padding: 2rem;
+  font-size: 45px;
+  text-decoration: none;
+  color: #d1cddb;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.nav-menu:hover {
+  letter-spacing: 20px;
+  margin-left: 200px;
+  color: #d1cddb;
+  text-shadow: 0 0 100px #384bf5;
+  transition: all 0.5s ease-in-out;
+}
