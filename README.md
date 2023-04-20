@@ -6,6 +6,8 @@ useState: that allows you to add state to a functional component
 useEffect: is the hook that manages the side-effects in functional components.
 }
 
+> https://api.nasa.gov/ # generate api key
+
 npm
 
 ## Creating react web application:
